@@ -1,5 +1,5 @@
 import unittest
-from src.FizzBuzz.FizzBuzzRule import FizzBuzzRule
+from src.FizzBuzz.ZeroRemainderRule import ZeroRemainderRule
 
 
 class FizzBuzzRuleTests(unittest.TestCase):
@@ -7,12 +7,12 @@ class FizzBuzzRuleTests(unittest.TestCase):
     def test_WhenDivisorIsNegative_ThenCtorThrows(self):
 
         with self.assertRaises(ValueError):
-            FizzBuzzRule(-10, "message")
+            ZeroRemainderRule(-10, "message")
 
     def test_WhenDivisorIsZero_ThenCtorThrows(self):
 
         with self.assertRaises(ValueError):
-            FizzBuzzRule(0, "message")
+            ZeroRemainderRule(0, "message")
 
     def test_WhenRemainderIsZero_ThenMessageIsReturned(self):
 
@@ -20,7 +20,7 @@ class FizzBuzzRuleTests(unittest.TestCase):
         message = "import message"
         value = 9
 
-        rule = FizzBuzzRule(divisor, message)
+        rule = ZeroRemainderRule(divisor, message)
 
         output = rule.evaluate(value)
 
@@ -31,7 +31,7 @@ class FizzBuzzRuleTests(unittest.TestCase):
         divisor = 3
         value = 5
 
-        rule = FizzBuzzRule(divisor, "")
+        rule = ZeroRemainderRule(divisor, "")
 
         output = rule.evaluate(value)
 
