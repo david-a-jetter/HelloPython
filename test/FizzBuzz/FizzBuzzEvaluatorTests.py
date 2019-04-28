@@ -1,75 +1,52 @@
 import unittest
 from src.FizzBuzz.FizzBuzzEvaluator import FizzBuzzEvaluator
+from src.FizzBuzz.ZeroRemainderRule import ZeroRemainderRule
 
 
 class FizzBuzzEvaluatorTests(unittest.TestCase):
 
-    def test_WhenEvaluatorIsConstructed_ThenPropertiesAreSetAsExpected(self):
-        fizz = 33
-        buzz = 55
-
-        evaluator = FizzBuzzEvaluator(fizz, buzz)
-
-        self.assertEqual(evaluator._fizz, fizz)
-        self.assertEqual(evaluator._buzz, buzz)
-
-    def test_WhenNotDivisibleByEither_ThenValueIsReturned(self):
-        fizz = 3
-        buzz = 5
-        value = 11
-
-        evaluator = FizzBuzzEvaluator(fizz, buzz)
-
-        result = evaluator.evaluate(value)
-
-        self.assertEqual(result, str(value))
-
-    def test_WhenDivisibleByFizz_ThenResponseIsFizzWithBang(self):
-        fizz = 3
-        buzz = 5
-        value = 9
-
-        evaluator = FizzBuzzEvaluator(fizz, buzz)
-
-        result = evaluator.evaluate(value)
-
-        self.assertEqual(result, "Fizz!")
-
-    def test_WhenDivisibleByBuzz_ThenResponseIsBuzzWithBang(self):
-        fizz = 3
-        buzz = 5
-        value = 10
-
-        evaluator = FizzBuzzEvaluator(fizz, buzz)
-
-        result = evaluator.evaluate(value)
-
-        self.assertEqual(result, "Buzz!")
-
-    def test_WhenDivisibleByFizzAndBuzz_ThenResponseIsFizzBuzzWithBang(self):
-        fizz = 3
-        buzz = 5
-        value = 30
-
-        evaluator = FizzBuzzEvaluator(fizz, buzz)
-
-        result = evaluator.evaluate(value)
-
-        self.assertEqual(result, "FizzBuzz!")
-
-    def test_WhenFizzIsNotPositive_ThenCtorThrows(self):
-        fizz = 0
-        buzz = 5
+    def test_WhenRulesIsNone_ThenCtorThrows(self):
 
         with self.assertRaises(ValueError):
-            FizzBuzzEvaluator(fizz, buzz)
+            FizzBuzzEvaluator(None)
 
-    def test_WhenBuzzIsNotPositive_ThenCtorThrows(self):
-        fizz = 3
-        buzz = 0
+    def test_WhenOneRuleIsMatched_ThenOutputHasMessageAndValue(self):
 
-        with self.assertRaises(ValueError):
-            FizzBuzzEvaluator(fizz, buzz)
+        message = "3 ZeroRemainder"
+        rule1 = ZeroRemainderRule(3, message)
+        rule2 = ZeroRemainderRule(5, "5 ZeroRemainder")
+
+        evaluator = FizzBuzzEvaluator([rule1, rule2])
+
+        response = evaluator.evaluate(3)
+
+        self.assertEqual(response, message)
+
+    def test_WhenTwoRulesAreMatched_ThenOutputHasBothMessages(self):
+
+        message1 = "basic boring message"
+        message2 = "AWESOME MESSAGE"
+        expected = message1 + message2
+
+        rule1 = ZeroRemainderRule(3, message1)
+        rule2 = ZeroRemainderRule(5, message2)
+
+        evaluator = FizzBuzzEvaluator([rule1, rule2])
+
+        response = evaluator.evaluate(15)
+        self.assertEqual(response, expected)
+
+    def test_WhenNoRulesAreMatched_ThenOutputIsInput(self):
+
+        value = 7
+        rule1 = ZeroRemainderRule(3, "one")
+        rule2 = ZeroRemainderRule(5, "two")
+
+        evaluator = FizzBuzzEvaluator([rule1, rule2])
+
+        response = evaluator.evaluate(value)
+
+        self.assertEqual(response, str(value))
 
 
 if __name__ == '__main__':

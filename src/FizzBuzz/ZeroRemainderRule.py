@@ -17,6 +17,6 @@ class ZeroRemainderRule(FizzBuzzRule):
         if value % self._divisor == 0:
             response = self._message
         else:
-            response = str(value)
+            response = ""
 
         return response

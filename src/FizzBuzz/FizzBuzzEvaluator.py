@@ -1,30 +1,26 @@
+from src.FizzBuzz import FizzBuzzRule
+
+
 class FizzBuzzEvaluator:
-    _fizz = 0
-    _buzz = 0
+    _rules = [FizzBuzzRule]
 
-    def __init__(self, fizz: int = 3, buzz: int = 5):
-        if fizz <= 0:
-            raise ValueError("fizz must be positive but was %s" % fizz)
+    def __init__(self, rules: [FizzBuzzRule]):
+        if rules is None:
+            raise ValueError("rules must not be none")
 
-        if buzz <= 0:
-            raise ValueError("buzz must be positive but was %s" % buzz)
-
-        self._fizz = fizz
-        self._buzz = buzz
+        self._rules = rules
 
     def evaluate(self, value: int) -> str:
-        fizz = value % self._fizz == 0
-        buzz = value % self._buzz == 0
 
         response = []
 
-        if fizz:
-            response.append("Fizz")
-        if buzz:
-            response.append("Buzz")
-        if not fizz and not buzz:
+        for rule in self._rules:
+            result = rule.evaluate(value)
+
+            if result != "":
+                response.append(result)
+
+        if len(response) == 0:
             response.append(str(value))
-        else:
-            response.append("!")
 
         return "".join(response)

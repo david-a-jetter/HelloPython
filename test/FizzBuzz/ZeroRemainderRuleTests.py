@@ -26,7 +26,7 @@ class FizzBuzzRuleTests(unittest.TestCase):
 
         self.assertEqual(output, message)
 
-    def test_WhenRemainderIsNotZero_ThenValueIsReturned(self):
+    def test_WhenRemainderIsNotZero_ThenEmptyStringIsReturned(self):
 
         divisor = 3
         value = 5
@@ -35,7 +35,7 @@ class FizzBuzzRuleTests(unittest.TestCase):
 
         output = rule.evaluate(value)
 
-        self.assertEqual(output, str(value))
+        self.assertEqual(output, "")
 
 if __name__ == '__main__':
     unittest.main()
