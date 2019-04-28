@@ -47,7 +47,3 @@ class FizzBuzzEvaluatorTests(unittest.TestCase):
         response = evaluator.evaluate(value)
 
         self.assertEqual(response, str(value))
-
-
-if __name__ == '__main__':
-    unittest.main()

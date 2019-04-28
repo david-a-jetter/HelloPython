@@ -36,6 +36,3 @@ class FizzBuzzRuleTests(unittest.TestCase):
         output = rule.evaluate(value)
 
         self.assertEqual(output, "")
-
-if __name__ == '__main__':
-    unittest.main()
