@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b18e9c30-d66d-4af9-9ec3-7e74f1fdb92b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FizzBuzz/FizzBuzzRule.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/FizzBuzz/ZeroRemainderRule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/FizzBuzz/FizzBuzzRuleTests.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/FizzBuzz/ZeroRemainderRule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FizzBuzz/FizzBuzzRule.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/FizzBuzz/FizzBuzzRule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/FizzBuzz/ZeroRemainderRule.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/FizzBuzz/ZeroRemainderRuleTests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,19 +44,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FizzBuzz/FizzBuzzRule.py">
+        <entry file="file://$PROJECT_DIR$/src/FizzBuzz/ZeroRemainderRule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="138">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FizzBuzz/ZeroRemainderRule.py">
+        <entry file="file://$PROJECT_DIR$/src/FizzBuzz/FizzBuzzRule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -86,8 +85,8 @@
         <option value="$PROJECT_DIR$/test/FizzBuzz/FizzBuzzEvaluatorTests.py" />
         <option value="$PROJECT_DIR$/test/FizzBuzz/FizzBuzzRuleTests.py" />
         <option value="$PROJECT_DIR$/test/FizzBuzz/ZeroRemainderRule.py" />
-        <option value="$PROJECT_DIR$/src/FizzBuzz/FizzBuzzRule.py" />
         <option value="$PROJECT_DIR$/src/FizzBuzz/ZeroRemainderRule.py" />
+        <option value="$PROJECT_DIR$/src/FizzBuzz/FizzBuzzRule.py" />
       </list>
     </option>
   </component>
@@ -162,8 +161,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in ZeroRemainderRule.py">
-    <configuration name="Unittests for ZeroRemainderRule.FizzBuzzRuleTests.test_WhenRemainderIsNotZero_ThenValueIsReturned" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Unittests for test.FizzBuzz.ZeroRemainderRuleTests.FizzBuzzRuleTests.test_WhenRemainderIsNotZero_ThenValueIsReturned" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="HelloPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,11 +172,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ZeroRemainderRule.FizzBuzzRuleTests.test_WhenRemainderIsNotZero_ThenValueIsReturned&quot;" />
+      <option name="_new_target" value="&quot;test.FizzBuzz.ZeroRemainderRuleTests.FizzBuzzRuleTests.test_WhenRemainderIsNotZero_ThenValueIsReturned&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test.FizzBuzz.ZeroRemainderRule.FizzBuzzRuleTests.test_WhenRemainderIsZero_ThenMessageIsReturned" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test.FizzBuzz.ZeroRemainderRuleTests.FizzBuzzRuleTests.test_WhenRemainderIsZero_ThenMessageIsReturned" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="HelloPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,7 +186,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.FizzBuzz.ZeroRemainderRule.FizzBuzzRuleTests.test_WhenRemainderIsZero_ThenMessageIsReturned&quot;" />
+      <option name="_new_target" value="&quot;test.FizzBuzz.ZeroRemainderRuleTests.FizzBuzzRuleTests.test_WhenRemainderIsZero_ThenMessageIsReturned&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -205,7 +204,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in ZeroRemainderRule.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in ZeroRemainderRuleTests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="HelloPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,7 +214,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/FizzBuzz/ZeroRemainderRule.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/FizzBuzz/ZeroRemainderRuleTests.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -235,9 +234,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in ZeroRemainderRule.py" />
-        <item itemvalue="Python tests.Unittests for ZeroRemainderRule.FizzBuzzRuleTests.test_WhenRemainderIsNotZero_ThenValueIsReturned" />
-        <item itemvalue="Python tests.Unittests for test.FizzBuzz.ZeroRemainderRule.FizzBuzzRuleTests.test_WhenRemainderIsZero_ThenMessageIsReturned" />
+        <item itemvalue="Python tests.Unittests in ZeroRemainderRuleTests.py" />
+        <item itemvalue="Python tests.Unittests for test.FizzBuzz.ZeroRemainderRuleTests.FizzBuzzRuleTests.test_WhenRemainderIsNotZero_ThenValueIsReturned" />
+        <item itemvalue="Python tests.Unittests for test.FizzBuzz.ZeroRemainderRuleTests.FizzBuzzRuleTests.test_WhenRemainderIsZero_ThenMessageIsReturned" />
         <item itemvalue="Python tests.Unittests in FizzBuzz" />
         <item itemvalue="Python tests.Unittests in test" />
       </list>
@@ -257,9 +256,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_FizzBuzzEvaluatorTests_py - 2019.04.28 at 14h 16m 29s.xml">
-      <configuration name="Unittests in FizzBuzzEvaluatorTests.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test - 2019.04.28 at 14h 18m 36s.xml">
       <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
@@ -286,6 +282,9 @@
     </history-entry>
     <history-entry file="Unittests_in_ZeroRemainderRule_py - 2019.04.28 at 14h 27m 27s.xml">
       <configuration name="Unittests in ZeroRemainderRule.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ZeroRemainderRuleTests_py - 2019.04.28 at 14h 35m 17s.xml">
+      <configuration name="Unittests in ZeroRemainderRuleTests.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -346,14 +345,7 @@
     <entry file="file://$PROJECT_DIR$/test/FizzBuzz/FizzBuzzRuleTests">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FizzBuzz/FizzBuzzRule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/FizzBuzz/ZeroRemainderRule.py">
+    <entry file="file://$PROJECT_DIR$/test/FizzBuzz/ZeroRemainderRuleTests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
@@ -382,8 +374,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FizzBuzz/ZeroRemainderRule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FizzBuzz/FizzBuzzRule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
