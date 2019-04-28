@@ -3,6 +3,12 @@ class FizzBuzzEvaluator:
     _buzz = 0
 
     def __init__(self, fizz: int = 3, buzz: int = 5):
+        if fizz <= 0:
+            raise ValueError("fizz must be positive but was %s" % fizz)
+
+        if buzz <= 0:
+            raise ValueError("buzz must be positive but was %s" % buzz)
+
         self._fizz = fizz
         self._buzz = buzz
 

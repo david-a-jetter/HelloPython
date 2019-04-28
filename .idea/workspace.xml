@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b18e9c30-d66d-4af9-9ec3-7e74f1fdb92b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FizzBuzz/FizzBuzzEvaluator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/FizzBuzz/FizzBuzzEvaluator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +16,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="46">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/FizzBuzz/FizzBuzzEvaluatorTests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FizzBuzz/FizzBuzzEvaluator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="207">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -51,6 +64,7 @@
         <option value="$PROJECT_DIR$/src/FizzBuzzEvaluator.py" />
         <option value="$PROJECT_DIR$/src/main.py" />
         <option value="$PROJECT_DIR$/src/FizzBuzz/FizzBuzzEvaluator.py" />
+        <option value="$PROJECT_DIR$/test/FizzBuzz/FizzBuzzEvaluatorTests.py" />
       </list>
     </option>
   </component>
@@ -80,6 +94,23 @@
               <item name="HelloPython" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HelloPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloPython" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FizzBuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloPython" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloPython" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="FizzBuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -108,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python tests.Unittests in FizzBuzzEvaluatorTests.py">
     <configuration name="FizzBuzzEvaluator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HelloPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,8 +224,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in FizzBuzzEvaluatorTests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="HelloPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/FizzBuzz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/FizzBuzz/FizzBuzzEvaluatorTests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in FizzBuzzEvaluatorTests.py" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.FizzBuzzRunner" />
         <item itemvalue="Python.FizzBuzzEvaluator" />
@@ -215,6 +261,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_FizzBuzzEvaluatorTests_py - 2019.04.28 at 13h 38m 53s.xml">
+      <configuration name="Unittests in FizzBuzzEvaluatorTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_FizzBuzzEvaluatorTests_py - 2019.04.28 at 13h 39m 25s.xml">
+      <configuration name="Unittests in FizzBuzzEvaluatorTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_FizzBuzzEvaluatorTests_py - 2019.04.28 at 13h 41m 14s.xml">
+      <configuration name="Unittests in FizzBuzzEvaluatorTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_FizzBuzzEvaluatorTests_py - 2019.04.28 at 13h 43m 06s.xml">
+      <configuration name="Unittests in FizzBuzzEvaluatorTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_FizzBuzzEvaluatorTests_py - 2019.04.28 at 13h 49m 43s.xml">
+      <configuration name="Unittests in FizzBuzzEvaluatorTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_FizzBuzzEvaluatorTests_py - 2019.04.28 at 13h 50m 11s.xml">
+      <configuration name="Unittests in FizzBuzzEvaluatorTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_FizzBuzzEvaluatorTests_py - 2019.04.28 at 13h 52m 54s.xml">
+      <configuration name="Unittests in FizzBuzzEvaluatorTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_FizzBuzzEvaluatorTests_py - 2019.04.28 at 13h 56m 22s.xml">
+      <configuration name="Unittests in FizzBuzzEvaluatorTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_FizzBuzzEvaluatorTests_py - 2019.04.28 at 13h 56m 31s.xml">
+      <configuration name="Unittests in FizzBuzzEvaluatorTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_FizzBuzzEvaluatorTests_py - 2019.04.28 at 13h 56m 42s.xml">
+      <configuration name="Unittests in FizzBuzzEvaluatorTests.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
@@ -224,8 +302,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997175" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40254238" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -237,22 +315,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/FizzBuzz/FizzBuzzEvaluator.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/FizzBuzz/FizzBuzzEvaluator.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/HelloWorld.py">
@@ -274,15 +336,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FizzBuzz/FizzBuzzEvaluator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="207">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FizzBuzz/FizzBuzzEvaluatorTests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
