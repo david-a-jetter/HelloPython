@@ -2,8 +2,9 @@ from .FizzBuzzRule import FizzBuzzRule
 
 
 class ZeroRemainderRule(FizzBuzzRule):
-    _divisor = 0
-    _message = ""
+
+    _divisor: int
+    _message: str
 
     def __init__(self, divisor: int, message: str):
         if divisor <= 0:

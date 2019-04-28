@@ -2,8 +2,9 @@ from src.FizzBuzz import FizzBuzzRule
 
 
 class FizzBuzzEvaluator:
-    _rules = [FizzBuzzRule]
-    _suffix = ""
+
+    _rules: [FizzBuzzRule]
+    _suffix: str
 
     def __init__(self, rules: [FizzBuzzRule], suffix: str):
         if rules is None:
