@@ -7,7 +7,7 @@ rules = [
     ZeroRemainderRule(7, "Bang")
 ]
 
-evaluator = FizzBuzzEvaluator(rules)
+evaluator = FizzBuzzEvaluator(rules, "!")
 
 for value in range(1, 106):
     evaluated = evaluator.evaluate(value)
